@@ -8,7 +8,15 @@ def move_zeroes_to_end(arr):
             j=j+1
     print(arr)
     
-arr=[1, 2, 0, 4, 3, 0, 5, 0]
+arr=[]
+
+items=int(input("Enter the number of items for the list"))
+
+print("Now enter the items ")
+
+for i in range(items):
+    element=int(input())
+    arr.append(element)
 
 move_zeroes_to_end(arr)
             
